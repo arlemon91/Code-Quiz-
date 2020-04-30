@@ -1,0 +1,93 @@
+hide {
+  display: none;
+}
+
+div {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+/*  */
+input {
+  padding: 15px 2px;
+  font-size: 25px;
+  width: 100px;
+}
+#actualQuestion {
+  color: black;
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+/* Giving some style to the answer options */
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+  background-color: gray (9, 134, 26);
+  border-radius: 10px;
+  color: black;
+  padding: 14px 40px;
+  font-size: 20px;
+  border: none;
+  margin: 30px;
+  display: block;
+}
+/* making sure the text is big and the same size for these two items. */
+#timer,
+#highscore {
+  font-size: 60px;
+  color: gold (9, 134, 26);
+}
+/* giving style to the heading */
+h1 {
+  color: yellow;
+  text-align: center;
+  padding: 85px;
+  font-style: bold;
+  font-size: 50px;
+}
+/* giving styling to text */
+p {
+  background-color: whitesmoke;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  width: 35%;
+  margin: auto;
+}
+/* Making the start button look good */
+#startbtn {
+  background-color: rgb(14, 38, 173);
+  color: black;
+  font-size: 40px;
+  padding: 14px 40px;
+  border-radius: 10px;
+}
+/* style to the controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* style to the top container*/
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+/* giving the quiz a good look and size */
+#quizboard {
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 30%;
+  width: 50%;
+  height: 500px;
+  display: none;
+}
+
+/* creating the submit section styling */
+#submitInitials {
+  background-color: gray;
+  border-radius: 10px;
+  color: white;
+  padding: 10spx;
+  font-size: 24px;
+  border-color: white;
+}
